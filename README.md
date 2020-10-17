@@ -10,7 +10,7 @@ Contributing to the website
 
 **Note:** Major issues or feature requests should be filed on the [issue tracker](https://github.com/mono/website/issues) first, so we can discuss the implications.
 
-If you want to edit a page, the easiest way is to click the ![Edit page on GitHub](https://cloud.githubusercontent.com/assets/1376924/3712375/a6d7bc42-150f-11e4-9ceb-5230cbbfba3f.png) link under the page title on the website.
+If you want to edit a page, the easiest way is to click the ![Edit page on GitHub](https://cloud.githubusercontent.com/assets/1376924/3712375/a6d7bc42-150f-11e4-9ceb-5230cbbfba3f.png)link under the page title on the website.
 
 This will open the source file on GitHub where you can click the pencil button to start editing:
 ![Arrow to pencil](https://cloud.githubusercontent.com/assets/1376924/3712474/1d2fe57a-1517-11e4-86b2-d083dbeaa4ae.png)
@@ -45,7 +45,7 @@ The site should now be running locally:
 Repository structure
 --------------------
 
- - `_includes` - *special folder* contains snippets that can be included via `{% include file.html %}` in other pages
+- `_includes` - *special folder* contains snippets that can be included via `{% include file.html %}` in other pages
  - `_layouts` - *special folder* contains the layouts that are shared between pages. Layouts can be inherited, the root layout is `base.html`.
  - `_posts` - *special folder*, contains the source pages for the blog section, see [Writing a blog post](#writing-a-blog-post)
  - `_site` - the output of the generated site is stored here by default, this folder only exists after Jekyll built the site
